@@ -1,0 +1,23 @@
+{
+  "name": "big-ascii-numbers",
+  "version": "0.0.1",
+  "description": "Print big ascii numbers in terminals",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "kuta"
+  },
+  "kuta": {
+    "files": ["tests/**-tests.js"]
+  },
+  "keywords": [
+    "terminal",
+    "ascii",
+    "art",
+    "numbers"
+  ],
+  "author": "d-dog@d-dog.se",
+  "license": "MIT",
+  "devDependencies": {
+    "kuta": "^1.0.6"
+  }
+}
